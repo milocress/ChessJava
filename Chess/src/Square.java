@@ -7,4 +7,12 @@ public class Square {
         this.xPos = xPos;
         this.yPos = yPos;
     }
+
+    public Piece getPiece() {
+        return piece;
+    }
+
+    public void setPiece(Piece piece) {
+        this.piece = piece;
+    }
 }
